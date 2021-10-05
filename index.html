@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Bitwise calculator | bit.com</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+                BITWISE CALCULATOR
+              <br>          
+        </div>
+       
+    </header>
+    <div class="content">
+        <h3>Enter Numbers <p>( ex: 2 3 7) </p></h3>
+        <br><br>
+        <input type="text" id="quantity" name="quantity" maxlength="1000000" minlength="2">
+        <input type="button" id="and" class="btn-grad" value="AND" onclick="and()">
+        <input type="button" id="xor" class="btn-grad" value="XOR" onclick="xor()">
+        <input type="button" id="or" class="btn-grad" value="OR"
+        onclick="or()">
+        <div class="answer">
+            <p id="ans">Your Answer will be here</p>
+        </div>
+    </div>
+    <br><br><br>
+</body>
+</html>
